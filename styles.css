@@ -187,6 +187,7 @@ header {
 .tools-container {
   width: 90%;
   display: flex;
+  margin-bottom: 7rem;
 }
 
 .tool {
@@ -208,4 +209,49 @@ header {
 
 .tool p {
   width: 90%;
+  margin-bottom: 0;
+}
+
+.brands-container {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 7rem;
+  align-items: center;
+}
+
+/* Footer */
+
+footer {
+  display: grid;
+  height: 150px;
+  align-items: center;
+  background: rgba(159, 171, 178, 0.2);
+  grid-template-columns: 25% 50% 25%;
+}
+
+.footer-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-logo img {
+  width: 60px;
+}
+
+.options {
+  align-items: center;
+  display: grid;
+  grid-template-rows: 40px 40px;
+  grid-template-columns: repeat(3, 33%);
+}
+
+.options a {
+  text-decoration: none;
+  color: var(--Dark-Grayish-Blue);
+}
+
+.social-medias img {
+  margin-left: 1rem;
 }
